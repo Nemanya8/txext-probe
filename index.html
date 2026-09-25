@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>txExtVersion Probe</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>txExtVersion probe</h1>
+      <p id="env">starting…</p>
+    </header>
+    <section id="cases"></section>
+    <section id="summary-wrap">
+      <h2>Summary</h2>
+      <table id="summary"><thead><tr><th>Case</th><th>Host</th><th>Built as</th><th>Chain dry-run</th></tr></thead><tbody></tbody></table>
+    </section>
+    <section id="log-wrap">
+      <div class="log-bar">
+        <h2>Log</h2>
+        <button id="copy">Copy</button>
+        <button id="clear">Clear</button>
+      </div>
+      <ol id="log"></ol>
+    </section>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
