@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.car
+.DS_Store
+*.log
+.env*
